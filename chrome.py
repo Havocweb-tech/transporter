@@ -218,7 +218,7 @@ def send_email_with_attachment(sender_email, sender_password, recipient_email, s
         
         print(".")
     except Exception as e:
-        print("..x..", e)
+        print("..x..")
     
     # Delete the file after sending the email
     try:
